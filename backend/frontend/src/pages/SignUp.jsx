@@ -8,7 +8,7 @@ const SignUp = ({setIsAuth}) => {
   const navigate=useNavigate()
   const handleLogin=async()=>{
     try {
-        const res=await axios.post("http://localhost:5500/auth/login",{email:email,password:pass})
+        const res=await axios.post("http://16.170.233.122:5500/auth/login",{email:email,password:pass})
         console.log(res.data)
         alert(res.data.msg)
         localStorage.setItem('token',res.data.token)

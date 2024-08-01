@@ -30,7 +30,7 @@ const accessLogStream=fs.createWriteStream(path.join(__dirname,"access.log"),{fl
 
 app.use(morgan('combined',{stream:accessLogStream}))
 app.use(helmet())
-app.use(cors());
+app.use(cors({origin:"*"}));
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.json());
 
