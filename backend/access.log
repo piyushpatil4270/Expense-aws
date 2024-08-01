@@ -86,3 +86,4 @@
 ::1 - - [01/Aug/2024:11:16:58 +0000] "POST /expense/getbyMonth HTTP/1.1" 202 25 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
 ::1 - - [01/Aug/2024:11:17:22 +0000] "GET /monthlysjfnjs HTTP/1.1" 200 644 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
 ::1 - - [01/Aug/2024:11:17:22 +0000] "GET /premium/user HTTP/1.1" 202 175 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+::1 - - [01/Aug/2024:11:54:47 +0000] "GET /premium/user HTTP/1.1" 202 175 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
