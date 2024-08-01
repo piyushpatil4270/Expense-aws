@@ -1,0 +1,7 @@
+{
+  "env": {
+    "PORT_NO": "5000",
+    "PAYU_KEY": "4qVKdt",
+    "PAYU_SALT": "EkDHiiSmyzFM36MoRCdG16hrAMaymo7w"
+  }
+}

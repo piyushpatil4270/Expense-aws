@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.add-btn{
+    position: fixed;
+    top:80%;
+    left: 95%;
+}
+
+
+.add-btn2{
+    position: fixed;
+    top: 80%;
+    left: 50%;
+}
+
+.hide-scrollbar {
+    overflow: hidden;
+  }
+  
